@@ -3,8 +3,8 @@ const { pipeline } = require('stream');
 const { program } = require('commander');
 const chalk = require('chalk');
 
-const { validate } = require('./src/validator');
-const { createTransformStream } = require('./src/transform');
+const { validate } = require('./validator');
+const { createTransformStream } = require('./transform');
 
 program
   .storeOptionsAsProperties(false)

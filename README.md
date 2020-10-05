@@ -12,7 +12,7 @@ The app transform only latin letters, other characters remain unchanged.
 
 ## How to use
 
-In the app folder write the command `node caesar-cipher [options]`, where the `options` are:
+Go to source files folder and write the command `node caesar-cipher [options]`, where the `options` are:
 * `-a, --action`: action - encode/decode (required)
 * `-s, --shift`: cipher shift (required, integer)
 * `-i, --input`: input file (default: `stdin`)
